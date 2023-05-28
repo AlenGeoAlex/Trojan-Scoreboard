@@ -1,0 +1,37 @@
+{
+  "name": "trojan-scoreboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "@types/node": "18.16.0",
+    "@types/react": "18.0.38",
+    "@types/react-dom": "18.0.11",
+    "chart.js": "^4.2.1",
+    "eslint": "8.39.0",
+    "eslint-config-next": "13.3.1",
+    "next": "13.3.1",
+    "primereact": "^9.3.0",
+    "react": "18.2.0",
+    "react-apexcharts": "^1.4.0",
+    "react-bootstrap": "^2.7.4",
+    "react-bootstrap-icons": "^1.10.3",
+    "react-confetti": "^6.1.0",
+    "react-dom": "18.2.0",
+    "react-loader-spinner": "^5.3.4",
+    "react-redux": "^8.0.5",
+    "react-use": "^17.4.0",
+    "react-usestateref": "^1.0.8",
+    "styled-components": "^5.3.10",
+    "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@types/styled-components": "^5.1.26"
+  }
+}

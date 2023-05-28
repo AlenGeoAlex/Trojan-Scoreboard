@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Noto+Sans&family=Silkscreen&display=swap');
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.navbarBrand {
+    display: flex;
+    align-items: center;
+}
+
+.navbarLogo {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.navbarTitle {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.navbarLinks {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbarLink {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.navbarLink:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 20px 10px;
+    }
+
+    .navbarBrand {
+        margin-bottom: 20px;
+    }
+
+    .navbarTitle {
+        font-size: 1.5rem;
+    }
+
+    .navbarLinks {
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .navbarLink {
+        margin: 0 10px;
+    }
+
+    .trojanFont {
+        font-family: "Candara", sans-serif;
+        font-style: normal;
+        font-size: 20px;
+    }
+}
+
+.trojanFont {
+    font-family: "Candara", sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    color: #ffffff;
+}

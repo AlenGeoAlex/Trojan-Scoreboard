@@ -1,0 +1,115 @@
+.formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1e1e1e;
+}
+
+.form {
+
+}
+
+.formCard {
+    width: 90%;
+    max-width: 400px;
+    padding: 40px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right, #312E81, #4B38A3);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.formTitle {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+.formGroup {
+    margin-bottom: 20px;
+}
+
+.formLabel {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.formInput,
+.formSelect {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2d2d2d;
+    color: #fff;
+    font-size: 16px;
+}
+
+.formInput::placeholder {
+    color: #aaa;
+}
+
+.formSelect option {
+    color: #000;
+    background-color: #fff;
+}
+
+.formSubmit {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4B38A3;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.formSubmit:hover{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(191, 26, 36);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .formCard {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .formLabel {
+        font-size: 1.2rem;
+    }
+
+    .formInput {
+        font-size: 1.2rem;
+        padding: 0.8rem;
+    }
+
+    .formSelect {
+        font-size: 1.2rem;
+        padding: 0.8rem;
+    }
+
+    .formButton {
+        font-size: 1.2rem;
+        padding: 0.8rem;
+    }
+}

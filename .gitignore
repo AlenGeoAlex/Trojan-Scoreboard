@@ -1,0 +1,8 @@
+#Client
+/Trojan-Scoreboard-Client/.idea
+/Trojan-Scoreboard-Client/.next
+/Trojan-Scoreboard-Client/node_modules
+
+
+#Server
+/Trojan-Scoreboard-Server/.idea

@@ -1,0 +1,119 @@
+ @font-face {
+    font-family: Silkscreen;
+     src: url('../asset/Silkscreen/Silkscreen-Regular.ttf');
+     src: url('../asset/Silkscreen/Silkscreen-Bold.ttf');
+
+ }
+
+
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #10002b;
+}
+.container {
+    max-width: 1800px;
+    min-height: 500px;
+    max-height: 500px;
+    background: #4c1d95;
+    border-radius: 12px;
+    border: 3px solid white;
+    display: flex;
+    align-self: center;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    padding: 68px 82px;
+    gap: 100px;
+    box-shadow: 0px 0px 3px black;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.colHeading h1 {
+    font-family: "Verdana";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+.colDisplay {
+    width: 360px;
+    height: 300px;
+    background: #080001;
+    border-radius: 5px;
+    font-family: "Silkscreen", cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 150px;
+    line-height: 110px;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    align-items: center;
+    color: #f94f6d;
+}
+
+.glow {
+    animation: textGlow 1s ease-in-out infinite;
+}
+
+@keyframes textGlow {
+    0%, 50%, 100% {
+        color: white;
+    }
+
+    25%, 75% {
+        color: #f94f6d;
+    }
+}
+
+
+.col-points {
+    margin-top: 25px;
+    display: flex;
+    gap: 10px;
+}
+.add {
+    width: 45px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-family: "Silkscreen", cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    line-height: 35px;
+    background: transparent;
+}
+
+.col {
+
+}
+
+@media only screen and (max-width: 600px) {
+    .display {
+        overflow-y: scroll;
+        padding:20px 0px;
+        min-height: 100vh;
+        height:auto;
+    }
+    .container {
+        margin: auto auto;
+        padding-block: 30px;
+        flex-direction: column;
+        gap: 10px;
+        max-height: 100%;
+    }
+}
